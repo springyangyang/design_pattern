@@ -1,5 +1,6 @@
 package com.sgy.pattern.proxy.cglibproxy;
 
+
 public class Jack {
 
 	public void driverCar(){

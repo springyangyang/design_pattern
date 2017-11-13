@@ -2,7 +2,6 @@ package com.sgy.pattern.proxy.cglibproxy;
 /**
  * cglib动态代理测试类
  * @author sgy
- *
  */
 public class CglibProxyTest {
 	//JDK的动态代理是通过接口进行强制转换的
