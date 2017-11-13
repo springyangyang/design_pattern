@@ -1,6 +1,10 @@
 package com.sgy.pattern.proxy.cglibproxy;
 
-
+/**
+ * 被代理对象
+ * @author sgy
+ *
+ */
 public class Jack {
 
 	public void driverCar(){
