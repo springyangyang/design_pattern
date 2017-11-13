@@ -22,7 +22,6 @@ public class DriverProxy implements MethodInterceptor{
 		//2.编译成class文件
 		//3.加载到JVM中，并返回被代理对象
 		return enhancer.create();
-		
 	}
 	//字节码重组,对于使用API的用户来说是无感知的
 	@Override
