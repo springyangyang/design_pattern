@@ -18,5 +18,25 @@ public class JdkProxyTest {
 		Person obj = (Person) new YueLao().getInstance(new Tony());
 		obj.findLove();
 	}
-
+	//原理：
+	//1.获取被代理对象的引用，然后获取他的接口。
+	//2.JDK代理重新生成一个类，同时实现我们给的代理对象所实现的接口
+	//3.获取到了被代理对象的引用后
+	//4.重新生成一个class字节码文件
+	//5.然后进行编译
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
