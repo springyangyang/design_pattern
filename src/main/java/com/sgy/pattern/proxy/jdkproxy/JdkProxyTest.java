@@ -10,12 +10,12 @@ package com.sgy.pattern.proxy.jdkproxy;
  * 		3.执行者也就是代理人必须获取到被代理对象的个人信息(代理对象持有被代理对象的引用)
  * 
  * </p>
- *
  */
 public class JdkProxyTest {
 	public static void main(String[] args) {
 		//获取被代理人个人信息
 		Person obj = (Person) new YueLao().getInstance(new Tony());
+		
 		obj.findLove();
 	}
 	//原理：
