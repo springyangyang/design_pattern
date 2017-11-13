@@ -12,7 +12,6 @@ import org.springframework.cglib.proxy.MethodProxy;
  */
 public class DriverProxy implements MethodInterceptor{
 	
-	
 	public Object getInstance(Class clazz){
 		Enhancer enhancer = new Enhancer();
 		//这一步是告诉cglib，生成的子类要继承哪个类
